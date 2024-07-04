@@ -1,34 +1,33 @@
 import { FaDribbble, FaEnvelope, FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const SocialIcons = () => {
     return (
         <div >
             <div className="text-white flex gap-10 text-xl">
                 <div className="flex justify-center items-center p-2 border-white border-2 hover:bg-blue-300 duration-300 hover:border-blue-300 cursor-pointer rounded-full">
-                    <Link to={'/'}>
+                    <a href="mailto:mdriead.bd@gmail.com">
                         <FaEnvelope />
-                    </Link>
+                    </a>
                 </div>
                 <div className="flex justify-center items-center p-2 border-white border-2 hover:bg-blue-300 duration-300 hover:border-blue-300 cursor-pointer rounded-full">
-                    <Link to={'/'}>
+                    <a target="_blank" href="https://github.com/mdrieadmia">
                         <FaGithub />
-                    </Link>
+                    </a>
                 </div>
                 <div className="flex justify-center items-center p-2 border-white border-2 hover:bg-blue-300 duration-300 hover:border-blue-300 cursor-pointer rounded-full">
-                    <Link to={'/'}>
+                    <a target="_blank" href="https://www.linkedin.com/in/mdriead">
                         <FaLinkedinIn />
-                    </Link>
+                    </a>
                 </div>
                 <div className="flex justify-center items-center p-2 border-white border-2 hover:bg-blue-300 duration-300 hover:border-blue-300 cursor-pointer rounded-full">
-                    <Link to={'/'}>
+                    <a target="_blank" href="https://www.facebook.com/mdrieadmia.bd">
                         <FaFacebookF />
-                    </Link>
+                    </a>
                 </div>
                 <div className="flex justify-center items-center p-2 border-white border-2 hover:bg-blue-300 duration-300 hover:border-blue-300 cursor-pointer rounded-full">
-                    <Link to={'/'}>
+                    <a target="_blank" href="https://dribbble.com">
                         <FaDribbble />
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

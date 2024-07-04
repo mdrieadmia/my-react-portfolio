@@ -15,7 +15,7 @@ const Menubar = () => {
 
     const handleDownload = () => {
         const aTag = document.createElement('a')
-        aTag.href = "http://localhost:5173/Resume_of_Riead_Frontend_Web_Developer.pdf"
+        aTag.href = "https://riead.netlify.app/Resume_of_Riead_Frontend_Web_Developer.pdf"
         aTag.setAttribute('download', "Resume_Of_RIEAD_Frontend_Web_Developer")
         document.body.append(aTag);
         aTag.click();
